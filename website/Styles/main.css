@@ -1,0 +1,145 @@
+body{
+    font-family: 'Times New Roman', Times, serif;     
+    width: 100%;
+    margin:15px auto;
+   
+   
+}
+
+.left_aside{
+    width: 25%;
+    float: left;
+}
+.right_aside{
+    width: 25%;
+    float: left;
+}
+.section{
+   width: 50%;
+   float: left;
+}
+footer{
+   clear: both;
+    
+}
+
+.logo{
+    float: left;
+    overflow: hidden;
+}
+header{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+    
+}
+
+footer{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+.navbar-brand{
+    color: #DA2C43 !important;
+}
+nav{
+    clear: both;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-item{
+    padding: 0 100px;
+    border: 1px solid black;
+   background-image: linear-gradient(to left,#09203F,#537895);
+    
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+main{
+    padding: 10px;
+}
+.head{
+    font-weight: bolder;
+    padding-left: 150px;
+}
+ 
+.left_aside img {
+    margin-right: 10px;
+ }
+.left_aside_img{
+    border-radius: 15px;
+    float: left;
+}
+
+ .left_aside_content{
+    text-align: justify;
+   
+    
+}
+.section_content{
+   padding-left: 30px;
+} 
+.section_content{
+    text-align: justify;
+}
+
+
+
+.right_aside_content{
+    border: 5px groove black;
+    margin-left: 20px;
+
+    border-radius: 30px;
+   
+}
+.right_aside_content li{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+}
+.right_aside_content li:hover{
+    background-color: black;
+}
+.right_aside_content a{
+    text-decoration: none;
+    color: white;
+}
+
+.aside_content a:hover{
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    
+
+   .left_aside{
+    width: 100%;
+    clear: both;
+   }
+   .right_aside{
+    clear: both;
+    width: 100%;
+   }
+   .section{
+    clear: both;
+    width: 100%;
+   }
+   .left_aside_img{
+     width:100%;
+   }
+   .section_content{
+  padding: 0;
+ } 
+}
+    
+    
+   
+
+

@@ -1,0 +1,171 @@
+body{
+    font-family: 'Times New Roman', Times, serif;     
+    width: 100%;
+    margin:15px auto;
+   
+   
+}
+
+
+aside{
+    float: left;
+    width: 40%;
+
+}
+section{
+    float: left;
+    width: 60%;
+}
+footer{
+   clear: both;
+    
+}
+
+.logo{
+    float: left;
+    overflow: hidden;
+}
+header{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+    
+}
+
+footer{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+.navbar-brand{
+    color: #DA2C43 !important;
+}
+nav{
+    clear: both;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-item{
+    padding: 0 100px;
+    border: 1px solid black;
+   background-image: linear-gradient(to left,#09203F,#537895);
+    
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+.aside_content{
+    border: 5px groove black;
+    margin-left: 20px;
+    width: 50%;
+    border-radius: 30px;
+   
+}
+
+.aside_content li{
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+.aside_content li:hover{
+    background-color: black;
+}
+.aside_content a{
+    text-decoration: none;
+    color: white;
+}
+
+.aside_content a:hover{
+    color: white;
+}
+.img_corusel{
+    width: 400px;
+ }
+.media_files{
+    padding: 20px;
+}
+.media{
+    margin-top: 20px;
+    width: 50%;
+    padding: 20px;
+    border: 5px solid black;
+    margin-left: 20px;
+    
+}
+
+.media li{
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.media a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+.place{
+    float: left;
+    margin-right: 20px;
+}
+.places{
+    margin-top: 20px;
+}
+.places p{
+    text-align: justify;
+}
+#place p{
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    .img_corusel{
+        width: 100%;
+       
+    }
+    .place{
+        clear: both;
+        width: 100%;
+    }
+    aside{
+       clear: both;
+        width: 100%;
+        padding: 30px;
+    
+    }
+    section{
+        clear: both;
+        width: 100%;
+    }
+    .aside_content{
+        width: 100%;
+    }
+    #place p{
+        padding: 10px;
+        text-align: justify;
+    }
+    .media_files{
+        width: 100%;
+    }
+    .media li{
+
+      padding: 20px;
+    }
+    .media {
+        width: 100%;
+
+    }
+    .media a{
+        text-align: center;
+    }
+
+  
+ }

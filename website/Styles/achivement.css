@@ -1,0 +1,119 @@
+body{
+    font-family: 'Times New Roman', Times, serif;     
+    width: 100%;
+    margin:15px auto;
+   
+   
+}
+
+
+
+footer{
+   clear: both;
+    
+}
+
+.logo{
+    float: left;
+    overflow: hidden;
+}
+header{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+    
+}
+
+footer{
+    background-image: linear-gradient(to left,#FF512F,white,#DD2476);
+}
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+.navbar-brand{
+    color: #DA2C43 !important;
+}
+nav{
+    clear: both;
+}
+.navbar-nav{
+    background-color: white !important;
+}
+.nav-item{
+    padding: 0 100px;
+    border: 1px solid black;
+   background-image: linear-gradient(to left,#09203F,#537895);
+    
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    
+}
+.press{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin: 30px;
+}
+.press img{
+     width: 300px;
+     height: 300px;
+}
+.awards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 30px;
+   
+}
+.awards img{
+     width: 150px;
+     height: 150px;
+}
+
+ @media only screen and (max-width: 993px) {
+   
+     .awards{
+        display: grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        
+    } 
+    .press{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        
+    }
+    .awards img{
+        width: 300px;
+        height: 300px;
+   }
+   .press img{
+    width: 300px;
+    height: 300px;
+}
+   
+  
+ } 
+
+ @media only screen and (max-width: 600px) {
+   
+    .awards{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .press{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .press img{
+        width: 100%;
+        
+   }
+   .awards img{
+    width: 100%;
+    
+}
+  
+ }
